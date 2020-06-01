@@ -1,2 +1,1 @@
-# Blackholes
-This webpage will tell you a lot about Blackholes.
+This code is free to use and change.
