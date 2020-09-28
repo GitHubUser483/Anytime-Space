@@ -1,16 +1,23 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- This is just a test comment -->
     <meta charset="UTF-8">
-    <meta name = "description" content = "This webpage will tell you facts about Blackholes">
-    <title>Blackholes - WIKI7</title>
+    <meta name = "description" content = "This webpage has helpful information about Blackholes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackholes - Anytime Space</title>
+    <link rel = "icon" type = "image/png" href = "LogoBrowerBar.png" />
     <style>
         body {
         background-color: black;
         color: white;
-        font: 17px "Comic Sans MS", cursive;
+        font: 17px "sans-serif", Helvitca;
         text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+        header {
+        text-align: center;
         }
         h1 {
         font-size: 3em;
@@ -19,34 +26,66 @@
         font-size: 2em;
         }
         .about-information {
-        line-height: 19px;
+        line-height: 25px;
         }
-        #contents {
-        text-decoration: underline;
+        .contents {
+        text-decoration: none;
+        text-align: left;
         }
         a {
         text-decoration: none;
+        color: blue;
+        }
+        main {
+        width: 50%;
+        }
+        p {
+        font-size: 20px;
+        }
+        li {
+        font-size: 1.5em;
+        }
+        #refrence-externel {
+        font-size: 15px;
+        }
+        .topbutton {
+        background-color: black;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid white;
+        font-size: 32px;
+        border-radius: 12px;
+        transition-duration: 0.4s;
+        display: inline-block;
+        cursor: pointer;
+        }
+        .topbutton:hover {
+        background-color: white;
+        color: black;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
     </style>
 </head>
 <body>
+<a href="HomePage.html"><button><img src="Logo_Black.jpg" width = 100></button></a>
     <header>
         <h1>All about Blackholes!</h1>
         <p><img src="https://i.insider.com/5ca8c277c6cc5038a41012d2?width=1600&format=jpeg&auto=webp"
         alt="Photo showing a supermassive blackhole" width="300"><br>
-        <big>Have you ever wondered what a blackhole is or how does it look like. What will happen if you get to<br>
-        close and are there different types of blackholes? Keep reading to find out.</big></p><hr>
-        <h3 id="contents"><big>Contents</big></h3>
-        <ol>
-            <li><a href="#what-blackhole">What are blackholes</a></li>
+        <p>Have you ever wondered what a blackhole is or how does it look like. What will happen if you get to<br>
+        close and are there different types of blackholes? Keep reading to find out.</p><hr class="contents">
+        <h2 class="contents"><big><u>Contents</u></big></h2>
+        <ol class="contents">
+            <li><a href="#what-blackhole">What are blackholes?</a></li>
             <li><a href="#parts-blackhole">Parts of a blackhole</a></li>
-            <li><a href="#types-blackhole">Types of Blackholes</a></li>
+            <li><a href="#types-blackhole">Types of blackholes</a></li>
         </ol>
-        <hr>
+        <hr class="contents">
     </header>
     <main>
-        <h2>What are blackholes?</h2>
-        <img src="https://ec.europa.eu/commission/sites/beta-political/files/190410ec2.jpg" alt="Oragne around black
+        <h2 id="what-blackhole">What are blackholes?</h2>
+        <img src="https://ec.europa.eu/commission/sites/beta-political/files/190410ec2.jpg" alt="Orange around black
          middle. First ever blackhole pictured" width="300">
         <p>A black hole is a region of spacetime where gravity is so strong that no particles or even<br>
         electromagnetic radiation such as light can escape from it.</p>
@@ -55,26 +94,26 @@
             <img src="https://cdn.hswstatic.com/gif/accretion-disk-1.jpg" alt="Photo showing rocks and ice around a
             blackhole" width="200">
             <li>Accreation Disk</li>
-            <p>An Accretion disk is a structure formed by diffuse material in orbital motion around a massive central body<br>
-            Accretion disks of young stars and protostars radiate in the infrared; those around neutron stars and black<br>
+            <p>An Accretion disk is a structure formed by diffuse material in orbital motion around a massive central body.
+            Accretion disks of young stars and protostars radiate in the infrared; those around neutron stars and black
             holes in the X-ray part of the spectrum.<br></p>
             <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2018/11/ChangingQuasar_2880x1800.jpg"
             alt="White stuff spewing out of the blackhole" width="200">
             <li>Quasars</li>
-            <p>A quasar (also called quasi stellar object is an extremely luminous active galactic nucleus in which a<br>
-            <b>supermassive</b> black hole with mass ranging from millions to billions of times the mass of the Sun is<br>
+            <p>A quasar (also called quasi stellar object is an extremely luminous active galactic nucleus in which a
+            <b>supermassive</b> black hole with mass ranging from millions to billions of times the mass of the Sun is
             surrounded by a gaseous accretion disk.<br></p>
             <img src="https://www.sciencealert.com/images/articles/processed/BlackHoleEventHorizon_web_1024.jpg"
-            alt="Photo showing where the black part of the blackhole is" width="200">
+            alt="Photo showing where the black part of the blackhole is" width="300">
             <li>Event Horizon</li>
-            <p>The 'event horizon' is the boundary defining the region of space around a black hole from which <b>nothing</b><br>
-            (not even light) can escape. In other words, the escape velocity for an object within the event horizon<br>
+            <p>The 'event horizon' is the boundary defining the region of space around a black hole from which <b>nothing</b>
+            (not even light) can escape. In other words, the escape velocity for an object within the event horizon
             exceeds the speed of light.<br></p>
             <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fstartswithabang%2Ffiles%2F2017%2F07%2Fsingularity.jpg"
             alt="Drawing depicting a blackhole as a deep well" width="200">
             <li>Singularity</li>
             <p>In the center of a black hole is a singularity, a one-dimensional point which contains a<br>
-            huge mass in an infinitely small space, where density and gravity become infinite and space-time curves<br>
+            huge mass in an infinitely small space, where density and gravity become infinite and space-time curves
             infinitely, and where the laws of physics as we know them cease to operate.<br></p>
         </ul>
         <h2 id="types-blackhole">Types of Blackholes</h2>
@@ -83,13 +122,13 @@
             <img src="https://i.insider.com/558085a66bb3f77a0f3304f1?width=800&format=jpeg&auto=webp" alt="A blackhole"
             width="200">
             <li>Miniature Blackholes</li>
-            <p>A minature blackhole(micro blackhole or quantum mechanical blackhole) is a hypothetical blackhole which<br>
-            could be created in particle accelarator. If this is true then they could be everywhere but live for a<br>
+            <p>A minature blackhole(micro blackhole or quantum mechanical blackhole) is a hypothetical blackhole which
+            could be created in particle accelarator. If this is true then they could be everywhere but live for a
             fraction of a second.</p>
             <img src="https://specials-images.forbesimg.com/imageserve/1178748615/960x0.jpg?fit=scale"
             alt="A blackhole with orange fragemnts around it"width="200">
             <li>Stellar-mass Blackholes</li>
-            <p>These are common types of blackhole everywhere. There are about 10 million in our galaxy alone.<br>
+            <p>These are common types of blackhole everywhere. There are about 10 million in our galaxy alone.
             They must contain the mass for atleast 5 solar masses to turn into a stellar mass blackhole.</p>
             <li>Intermediate Blackholes</li>
             <p></p>
@@ -102,6 +141,7 @@
     </main>
     <footer>
         <h3>More Refrences</h3>
+        <div id="refrence-externel">
         <ul>
             <li><a target="_blank" href="https://school.eb.co.uk/levels/intermediate/article/black-hole/439859">
             What is a blackhole</a></li>
@@ -111,6 +151,7 @@
             <li><a target="_blank" href="https://www.youtube.com/watch?v=ulCdoCfw-bY&t=140s">Spinning Blackhole
             Energy</a></li>
         </ul>
+        </div>
     </footer>
 </body>
 </html>
