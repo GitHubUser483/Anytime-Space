@@ -1,1 +1,1 @@
-This code is free to use and change.
+This code is for viewing how coding basically works  
